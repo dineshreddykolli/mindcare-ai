@@ -1,0 +1,23 @@
+﻿# Environment files
+.env
+*.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+*.egg-info/
+
+# Node
+node_modules/
+frontend/node_modules/
+frontend/dist/
+
+# Docker
+*.log
+
+# Database
+*.db
+*.sqlite
