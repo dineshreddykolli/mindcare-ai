@@ -13,7 +13,7 @@ from app.routers import intake, admin, matching, auth
 
 # Create database tables
 # In production, use Alembic migrations instead
-# Base.metadata.create_all(bind=engine)
+Base.metadata.create_all(bind=engine)
 
 # Initialize FastAPI app
 app = FastAPI(
@@ -32,7 +32,10 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
-
+@app.on_event("startup")
+async def startup_event():
+    """Create database tables on startup"""
+    Base.metadata.create_all(bind=engine)
 # Include routers
 app.include_router(auth.router)
 app.include_router(intake.router)
