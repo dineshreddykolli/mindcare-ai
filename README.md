@@ -9,7 +9,7 @@
 MindCare AI is an AI-powered patient triage and therapist-matching platform designed for mental health clinics. It reduces wait times, improves resource allocation, and identifies high-risk patients requiring urgent intervention.
 
 ### Key Features
-
+ 
 - **AI Intake Chatbot** - Automated patient intake with natural language processing
 - **Risk Scoring Engine** - Real-time assessment of patient risk levels
 - **Smart Therapist Matching** - AI-powered patient-therapist pairing based on specialty, availability, and outcomes
