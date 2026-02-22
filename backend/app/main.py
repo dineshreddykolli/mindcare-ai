@@ -9,10 +9,13 @@ import uvicorn
 
 from app.config import settings
 from app.database import engine, Base
+
+# Import all models to register with SQLAlchemy BEFORE create_all
+from app.models import patient, risk, therapist, user
+
 from app.routers import intake, admin, matching, auth
 
 # Create database tables
-# In production, use Alembic migrations instead
 Base.metadata.create_all(bind=engine)
 
 # Initialize FastAPI app
