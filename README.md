@@ -1,10 +1,10 @@
-# MindCare AI - Intelligent Mental Health Triage Platform 
+# MindCare AI - Intelligent Mental Health Triage Platform
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.11+](https://img.shields.io/badge/python-3.11+-blue.svg)](https://www.python.org/downloads/)
 [![React 18](https://img.shields.io/badge/react-18-blue.svg)](https://reactjs.org/)
 
-## Overview
+## Overview 
 
 MindCare AI is an AI-powered patient triage and therapist-matching platform designed for mental health clinics. It reduces wait times, improves resource allocation, and identifies high-risk patients requiring urgent intervention.
 
